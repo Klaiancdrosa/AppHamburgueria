@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_yellow"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp">
+
+        <TextView
+            android:id="@+id/textViewMenus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/background"
+            android:ems="8"
+            android:fontFamily="@font/carter_one"
+            android:text="Hamburgueres"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="28dp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/imageViewMenu1"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/textViewMenus"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/h1" />
+
+        <ImageView
+            android:id="@+id/imageViewMenu2"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_alignTop="@id/imageViewMenu1"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="28dp"
+            app:srcCompat="@drawable/h2" />
+
+        <TextView
+            android:id="@+id/textL1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageViewMenu1"
+            android:layout_marginLeft="44dp"
+            android:layout_marginTop="-30dp"
+            android:fontFamily="@font/carter_one"
+            android:text="Duplo Chesse Bacon \n    (2 Carnes, Queijo,\n Bacon, Molho da casa)  \n                  29 R$"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textL3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/textL1"
+            android:layout_marginLeft="250dp"
+            android:fontFamily="@font/carter_one"
+            android:text="  Quad Cheddar \n(2 Carnes, Salada, \n  Tomate, Queijo, \n        Maionese)   \n             30 R$"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageViewMenu3"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_below="@id/textL1"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/h4" />
+
+        <ImageView
+            android:id="@+id/imageViewMenu4"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_alignTop="@id/imageViewMenu3"
+            android:layout_marginLeft="240dp"
+            app:srcCompat="@drawable/h3" />
+
+        <TextView
+            android:id="@+id/textS7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageViewMenu3"
+            android:layout_marginLeft="55dp"
+            android:fontFamily="@font/carter_one"
+            android:text="   Salada Simples \n (1 Carne, Salada, \n Tomate, Mayonese)\n                 25 R$"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textS8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/textS7"
+            android:layout_marginLeft="265dp"
+            android:fontFamily="@font/carter_one"
+            android:text="   Artesanal \n (1 Carne, Molho \nda Casa, Salada,\n    Tomate) \n      28 R$"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewBebidas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textS8"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/background"
+            android:ems="8"
+            android:fontFamily="@font/carter_one"
+            android:text="Bebidas"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="28dp"
+            android:textStyle="italic" />
+
+        <ImageView
+            android:id="@+id/imageViewBebida1"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_below="@id/textViewBebidas"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/r1" />
+
+        <ImageView
+            android:id="@+id/imageViewBebida2"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_alignTop="@id/imageViewBebida1"
+            android:layout_marginLeft="230dp"
+            app:srcCompat="@drawable/r2" />
+
+        <TextView
+            android:id="@+id/textL10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageViewBebida1"
+            android:layout_marginLeft="54dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/carter_one"
+            android:text="Chopp 500ml \n            12 R$"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textL11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/textL10"
+            android:layout_marginLeft="260dp"
+            android:fontFamily="@font/carter_one"
+            android:text="Caipirinhas \n         15 R$"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageViewBebida3"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_below="@id/textL10"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/r4" />
+
+        <ImageView
+            android:id="@+id/imageViewBebida4"
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:layout_alignTop="@id/imageViewBebida3"
+            android:layout_marginLeft="210dp"
+            app:srcCompat="@drawable/r3" />
+
+        <TextView
+            android:id="@+id/textS1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageViewBebida3"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/carter_one"
+            android:text="Coca-Cola 2l \n        14 R$"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textS2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/textS1"
+            android:layout_marginLeft="235dp"
+            android:fontFamily="@font/carter_one"
+            android:text="Guarana 2l \n       12 R$"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/btnWhatsApp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_below="@id/textS2"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/wpp" />
+
+        <TextView
+            android:id="@+id/textW2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btnWhatsApp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/carter_one"
+            android:text="FAÇA JÁ O SEU PEDIDO!"
+            android:textColor="@color/black"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,104 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backback"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="40dp"
+        android:background="@drawable/caixa_de_fundo"
+        android:backgroundTint="@color/light_yellow"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/edtUsuario"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/white"
+            android:ems="3"
+            android:hint="Username"
+            android:inputType="text"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <EditText
+            android:id="@+id/edtSenha"
+            android:layout_width="220dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="98dp"
+            android:background="@color/white"
+            android:ems="3"
+            android:hint="Password"
+            android:inputType="text"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="53dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="26dp"
+            app:srcCompat="@drawable/username" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="54dp"
+            android:layout_height="48dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="95dp"
+            app:srcCompat="@drawable/password" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="128dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="170dp"
+        android:fontFamily="@font/alatsi"
+        android:text="Login"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="43dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btLogar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alatsi"
+        android:textSize="20dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:text="Logar"
+        android:background="@color/light_yellow"
+        android:textColor="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btCadastrarL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/alatsi"
+        android:textSize="14dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="500dp"
+        android:textColor="@color/white"
+        android:background="@color/light_yellow"
+        android:text="Cadastrar" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

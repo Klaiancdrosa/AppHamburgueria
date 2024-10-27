@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_yellow">#FFDB00</color>
+    <color name="winter">#9EC8B9</color>
+    <color name="dark_ocean_blue">#161D6F</color>
+    <color name="ocean_blue">#0B2F9F</color>
+    <color name="sky_blue">#98DED9</color>
+    <color name="white_sky_blue">#C7FFD8</color>
+    <color name="oranged">#FF8F00</color>
+</resources>
