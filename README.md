@@ -19,7 +19,7 @@ Siga os passos abaixo para rodar o projeto localmente:
 
 1. Clone este repositório:
 ```bash
-git clone https://github.com/Klaiancdrosa/Fuel-Saver.git
+git clone https://github.com/Klaiancdrosa/AppHamburgueria.git
 ```
 2. Abra o projeto no Android Studio.
 3. Compile e execute o projeto em um emulador ou dispositivo físico.
@@ -56,11 +56,19 @@ O design é minimalista e fácil de usar, com foco na simplicidade.
 **Tela Principal**
 Tela principal aonde o usuário, caso não tenha login, deverá acessar o cadastro no botão a baixo.
 
+![image](https://github.com/user-attachments/assets/a7d19404-c08c-4c71-8b34-7647bb128ca0)
+
 **Tela Secundária**
 Tela aonde o cliente deverá realizar o cadastro para poder logar no app.
 
+![image](https://github.com/user-attachments/assets/9d497e47-087d-4ebf-a1eb-1233e5a715f4)
+
 **Tela Cardápio**
 Tela que permite ao usuário visualizar o cardápio da hamburgueria e ser redicionado ao whatsapp da hamburgueria para fazer o pedido.
+
+![image](https://github.com/user-attachments/assets/654b9e29-c06e-4e84-bd7e-0c9ed354222a)
+
+![image](https://github.com/user-attachments/assets/8e79396e-a299-4a7a-8109-0153c1dde43f)
 
 ## Desenvolvedores
 **Klaian Conceição da Rosa** - Desenvolvedor - [GitHub](https://github.com/Klaiancdrosa)
