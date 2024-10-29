@@ -50,7 +50,7 @@ git clone https://github.com/Klaiancdrosa/AppHamburgueria.git
 
 ## Design e Prototipage
 A interface do app foi criada usando **RelativeLayout, ScrollView e CoordinatorLayout**;
-O design é minimalista e fácil de usar, com foco na simplicidade.
+O design é minimalista e fácil de usar, com foco na simplicidade e entendimento.
 
 ## Telas do App Hamburgueria
 **Tela Principal**
